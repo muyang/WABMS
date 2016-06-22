@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dynamic Data</title>
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.12.0/css/ol.css" type="text/css">
+    <script src="http://openlayers.org/en/v3.12.0/build/ol.js"></script>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.16/socket.io.min.js"></script>
+  </head>
+  <body>
+    <div id="map" class="map"></div>
+    <script>
+	var coords=[];
+	
+	$(document).ready(function(){
+		var socket = io.connect();
+		socket.on('connect', function() {
+			socket.emit('connect', {data: 'I\'m connected!'});
+            socket.emit('update', {data:'run sumo'});
+
+		});
+
+		socket.on('test', function(data) {
+			coords=data;
+			//console.log(coords);
+			socket.emit('update', {data: 'updated!'});
+		});
+
+	});
+
+	var map = new ol.Map({
+		layers: [
+			new ol.layer.Tile({
+			//source: new ol.source.MapQuest({layer: 'sat'})
+			source: new ol.source.OSM()
+			})
+		],
+		target: 'map',
+		view: new ol.View({
+			center: [113, 28.2100],
+			projection: new ol.proj.Projection({
+				code: 'EPSG:4326',
+				units: 'degrees',
+				extent: [-180.0000, -90.0000, 180.0000, 90.0000]
+			}),
+			zoom: 13
+		})
+	});
+
+	var imageStyle = new ol.style.Circle({
+		radius: 3,
+		snapToPixel: false,
+		fill: new ol.style.Fill({color: 'yellow'}),
+		stroke: new ol.style.Stroke({color: 'red', width: 1})
+	});
+
+	var headInnerImageStyle = new ol.style.Style({
+		image: new ol.style.Circle({
+			radius: 2,
+			snapToPixel: false,
+			fill: new ol.style.Fill({color: 'blue'})
+		})
+	});
+
+	var headOuterImageStyle = new ol.style.Circle({
+		radius: 3,
+		snapToPixel: false,
+		fill: new ol.style.Fill({color: 'black'})
+	});
+
+	map.on('postcompose', function(event) {
+		var vectorContext = event.vectorContext;
+
+		vectorContext.setImageStyle(imageStyle);
+		vectorContext.drawMultiPointGeometry(
+			new ol.geom.MultiPoint(coords), null);
+			map.render();
+	});
+	map.render();
+    </script>
+    <!--input type="submit" name="submit" value="init">
+    <input type="submit" name="submit" value="go">
+    <input type="submit" name="submit" value="step">
+    <input type="submit" name="submit" value="stop"-->
+  </body>
+</html>
