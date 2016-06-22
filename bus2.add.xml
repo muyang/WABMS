@@ -1,0 +1,637 @@
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/additional_file.xsd">
+    <busStop id="省军区1" lane="--4575_1" startPos="600" endPos="620" lines="1b t3a 131a 136b 142a 168b 302a 501out"/>
+    <busStop id="省军区2" lane="-4575_1" startPos="200" endPos="220" lines="1a 136a 142b 168a 302b 501in"/>
+    <busStop id="袁家岭1" lane="-4574_1" startPos="105" endPos="125" lines="1a 136a 142b 168a 302b 501in 701b 908e2"/>
+    <busStop id="袁家岭2" lane="--4573_1" startPos="5" endPos="25" lines="1b t3a 136b 142a 168b 302a 501out 701a 908e1"/>
+    <busStop id="省公安厅1" lane="-4573_1" startPos="150" endPos="170" lines="1a 136a 142b 168a 302b 501in 701b 908e2"/>
+    <busStop id="省公安厅2" lane="--3234_1" startPos="180" endPos="200" lines="1b t3a 136b 142a 168b 302a 501out 701a 908e1"/>
+    <busStop id="蓉园路口1" lane="--4582_1" startPos="170" endPos="190" lines="142a 168b 302a 501out 701a 908e1"/>
+    <busStop id="蓉园路口2" lane="-4582_1" startPos="130" endPos="150" lines="1a 112b 127a 136a 142b 168a 302b 405a 501in 701b 908e2"/>
+    <busStop id="五里牌3" lane="--4630_1" startPos="200" endPos="220" lines="110b 112a 114a p114a 126b 127b 139b 158a 405b 908e1"/>
+    <busStop id="南湖市场1" lane="--4628_1" startPos="20" endPos="40" lines="110b 112a 114a p114a 126b 127b 139b 158a 405b 908e1"/>
+    <busStop id="南湖市场2" lane="-4628_1" startPos="45" endPos="65" lines="127a 405a 908e2"/>
+    <busStop id="火星镇2" lane="-3677_1" startPos="160" endPos="180" lines="103b 110b p114a 114a 126b 127b 142a 405a 502b 908e1"/>
+    <busStop id="火星镇1" lane="--3677_1" startPos="300" endPos="320" lines="103a 110a p114b 114b 126a 127a 142b 405a 502a 908e2"/>
+    <busStop id="陶家山1" lane="-3681_1" startPos="85" endPos="105" lines="103b 110b 114a p114a 126b 127b 502b 501out 703b 802a 908e1"/>
+    <busStop id="马王堆2" lane="--3679_1" startPos="110" endPos="130" lines="103a 110a p114b 114b 126a 127a 405a 502a 908e2"/>
+    <busStop id="陶家山2" lane="--3904_1" startPos="70" endPos="90" lines="103a 110a p114b 114b 127a 502a 501in 703a 802b 908e2"/>
+    <busStop id="长沙输液中心2" lane="-3906_1" startPos="40" endPos="60" lines="103b 110b 114a p114a 126b 127b 502b 501out 703b 802a"/>
+    <busStop id="长沙输液中心1" lane="--3907_1" startPos="80" endPos="100" lines="103a 110a 114b p114b 126a 127a 502a 501in 703a 802b"/>
+    <busStop id="东屯渡桥西2" lane="-3682_1" startPos="85" endPos="105" lines="103b 110b 114a p114a 126b 127b 130b 502b 501out 703b 802a"/>
+    <busStop id="东屯渡桥西1" lane="--3682_1" startPos="20" endPos="40" lines="103a 110a 114b p114b 126a 127a 130a 502a 501in 703a 802b"/>
+    <busStop id="省高速公路管理局2" lane="--3881_1" startPos="130" endPos="150" lines="908e1"/>
+    <busStop id="省高速公路管理局1" lane="-3881_1" startPos="25" endPos="45" lines="908e2"/>
+    <busStop id="陶家山北2" lane="--3879_1" startPos="60" endPos="80" lines="908e1"/>
+    <busStop id="陶家山北1" lane="-3879_1" startPos="30" endPos="50" lines="908e2"/>
+    <busStop id="蒋家湾" lane="-4322_1" startPos="10" endPos="30" lines="907b 907b2 907a 907b1"/>
+    <busStop id="新桥村" lane="--3878_1" startPos="95" endPos="115" lines="907b 908e1"/>
+    <busStop id="新桥2" lane="--3876_1" startPos="40" endPos="60" lines="907b 907b2 908e1"/>
+    <busStop id="新桥1" lane="-3876_1" startPos="85" endPos="105" lines="907a 907b1 908e2"/>
+    <busStop id="省审计厅2" lane="-4119_1" startPos="40" endPos="60" lines="907a 907b1"/>
+    <busStop id="省审计厅1" lane="--4119_1" startPos="190" endPos="210" lines="907b 907b2"/>
+    <busStop id="芙蓉公安分局2" lane="-4488_1" startPos="250" endPos="270" lines="143in 147b 158a x205w 704a 907a 907b1"/>
+    <busStop id="芙蓉公安分局1" lane="--4488_1" startPos="40" endPos="60" lines="143out 147a 158b x205e 704b 907b 907b2"/>
+    <busStop id="省老干部局2" lane="-3961_1" startPos="205" endPos="225" lines="112a 147a 915b"/>
+    <busStop id="省老干部局1" lane="-4008_1" startPos="315" endPos="335" lines="112b 143in 147b 915a"/>
+    <busStop id="马王堆医院南2" lane="--4300_1" startPos="85" endPos="105" lines="501out"/>
+    <busStop id="马王堆医院南1" lane="-4300_1" startPos="140" endPos="160" lines="112a 112b 501in"/>
+    <busStop id="马王堆医院1" lane="-4009_1" startPos="95" endPos="115" lines="112b 143in 142b 147b 915a"/>
+    <busStop id="马王堆汽配市场1" lane="-4011_1" startPos="55" endPos="75" lines="112b 143in 142b 147b 156a 501out 915a"/>
+    <busStop id="商贸城2" lane="--3760_1" startPos="95" endPos="115" lines="66a 156a"/>
+    <busStop id="商贸城1" lane="-3760_1" startPos="150" endPos="170" lines="66b 112b 156b"/>
+    <busStop id="马王堆大市场2" lane="--3719_1" startPos="120" endPos="140" lines="705a"/>
+    <busStop id="马王堆大市场1" lane="-3719_1" startPos="150" endPos="170" lines="705b"/>
+    <busStop id="纬二路2" lane="--3761_1" startPos="65" endPos="85" lines="156a 705b"/>
+    <busStop id="纬二路1" lane="-3761_1" startPos="160" endPos="180" lines="112b 156b 705a"/>
+    <busStop id="五里牌1" lane="--3358_1" startPos="125" endPos="145" lines="101a 112b 139a 148b 302b 501in 602a 701b 805b"/>
+    <busStop id="竹园路口2" lane="-4536_1" startPos="95" endPos="115" lines="101b 148a 302a 501out 602b 701a 805a"/>
+    <busStop id="竹园路口1" lane="--4536_1" startPos="45" endPos="65" lines="101a 112b 139a 148b 302b 501in 602a 701b 805b"/>
+    <busStop id="蓉园小区3" lane="-4539_1" startPos="120" endPos="140" lines="148a 602b 701a 805a"/>
+    <busStop id="蓉园小区2" lane="-4539_1" startPos="205" endPos="225" lines="101b 302a 501out"/>
+    <busStop id="蓉园小区1" lane="--4539_1" startPos="110" endPos="130" lines="101a 112b 139a 148b 302b 501in 602a 701b 805b"/>
+    <busStop id="车站南路口2" lane="-4474_1" startPos="75" endPos="95" lines="143in 147b 148a x205f2 x205w 302a 501out 602b 701a 705b 704a 805a 906a 907a 907b1"/>
+    <busStop id="车站南路口1" lane="--4474_1" startPos="40" endPos="60" lines="102b 139a 143out 147a 148b 156b x205f1 x205e 302b 501in 602a 701b 705a 704b 805b 906b 907b 907b2"/>
+    <busStop id="新华联(王府花园)2" lane="--4541_1" startPos="35" endPos="55" lines="101a 143in 147b x205w x205f2 705b 704a 808a 906a"/>
+    <busStop id="新华联(王府花园)1" lane="-4542_1" startPos="30" endPos="50" lines="101b 143out 147a 156b x205e x205f1 705a 808b"/>
+    <busStop id="兑泽街4" lane="-4548_1" startPos="25" endPos="45" lines="704b 906b"/>
+    <busStop id="烈士公园东门1" lane="-3336_1" startPos="40" endPos="60" lines="156a"/>
+    <busStop id="烈士公园东门2" lane="--3336_1" startPos="50" endPos="70" lines="705b"/>
+    <busStop id="火炬路西" lane="--3336_1" startPos="20" endPos="40" lines=""/>
+    <busStop id="烈士公园东门3" lane="-3336_1" startPos="255" endPos="275" lines="156b 705a"/>
+    <!--busStop id="stop60" lane="-4548_1" startPos="30" endPos="50" lines=""/-->
+	<!--busStop info-->
+    <busStop id="兑泽街3" lane="--4548_1" startPos="100" endPos="120" lines="101a 143in 147b x205w x205f2 704a 808a 906a"/>
+    <busStop id="兑泽街2" lane="-4549_1" startPos="95" endPos="115" lines="101b 143out x205f1"/>
+    <busStop id="兑泽街1" lane="-4549_1" startPos="160" endPos="180" lines="147a x205e 704b 808b 906b"/>
+    <busStop id="马王堆1" lane="-3678_1" startPos="100" endPos="120" lines="p114a"/>
+    <busStop id="湘湖路" lane="--4646_1" startPos="30" endPos="50" lines="112b 139a"/>
+    <busStop id="南湖市场4" lane="-4952_1" startPos="75" endPos="95" lines="142a"/>
+    <busStop id="南湖市场3" lane="--4952_1" startPos="120" endPos="140" lines="112b 139a 142b"/>
+    <busStop id="留园路" lane="--4955_1" startPos="40" endPos="60" lines="112b 139a"/>
+    <busStop id="南湖市场东1" lane="-4382_1" startPos="165" endPos="185" lines="66a 158b 801a 906a"/>
+    <busStop id="凌霄路1" lane="-4331_1" startPos="25" endPos="45" lines="66b 112b 139a 156b"/>
+    <busStop id="凌霄路2" lane="--4330_1" startPos="20" endPos="40" lines="66a 112a 139b 156a"/>
+    <busStop id="南湖市场东2" lane="-4397_1" startPos="55" endPos="75" lines="66b 139a 158a 801b 906b"/>
+    <busStop id="陶瓷城" lane="--4328_1" startPos="165" endPos="185" lines="112a"/>
+    <busStop id="马王堆医院2" lane="-3960_1" startPos="105" endPos="125" lines="112a 142a 143out 147a 915b"/>
+    <busStop id="马王堆汽配市场2" lane="-3957_1" startPos="165" endPos="185" lines="112a 142a 143out 147a 156b 501in 915b"/>
+    <busStop id="田家炳中学4" lane="--4302_1" startPos="40" endPos="60" lines="142b 501out"/>
+    <busStop id="田家炳中学3" lane="-4302_1" startPos="145" endPos="165" lines="142a 501in"/>
+    <busStop id="田家炳中学1" lane="-4053_1" startPos="5" endPos="25" lines="705a"/>
+    <busStop id="田家炳中学2" lane="--4052_1" startPos="1" endPos="12" lines="705b"/>
+    <busStop id="龙柏路口2" lane="-5856_1" startPos="15" endPos="35" lines="139b 142a 501in 705a"/>
+    <busStop id="龙柏路口1" lane="--4054_1" startPos="120" endPos="140" lines="139a 142b 501out 705b"/>
+    <busStop id="南湖市场北2" lane="-4478_1" startPos="75" endPos="95" lines="143in x205w 501out 907b1"/>
+    <busStop id="南湖市场北1" lane="--4478_1" startPos="10" endPos="30" lines="143out 147a 148b 156b x205f1 x205e 302b 501in 602a 701b 705a 704b 805b 906b 907b 907b2"/>
+    <busStop id="省教育厅1" lane="-3558#2_1" startPos="1" endPos="18" lines="66a 156a 158b 801a 906a"/>
+    <busStop id="长沙晚报2" lane="-4482_1" startPos="10" endPos="30" lines="143in 147b 148a 156a x205w x205f2 302a 501out 602b 705b 701a 704a 805a 906a 907a 907b1"/>
+    <busStop id="长沙晚报1" lane="--4482_1" startPos="100" endPos="120" lines="143out x205e x205f1 302b 705a 907b2"/>
+    <busStop id="长沙晚报3" lane="--4482_1" startPos="10" endPos="30" lines="147a 148b 156b 501in 602a 701b 704b 805b 906b 907b"/>
+    <busStop id="南湖市场北3" lane="-4479_1" startPos="45" endPos="65" lines="147b 148a 156a x205f2 302a 602b 705b 701a 704a 805a 906a 907a"/>
+    <busStop id="省教育厅2" lane="-4400_1" startPos="50" endPos="70" lines="66b 156b 158a 801b 906b"/>
+    <busStop id="紫薇路口1" lane="--4484_1" startPos="0" endPos="20" lines="143out 147a 148b x205e 704b 907b 907b2"/>
+    <busStop id="紫薇路口2" lane="-4486_1" startPos="100" endPos="120" lines="143in 147b 158a x205w 704a 907a 907b1"/>
+    <busStop id="王家湖路" lane="--3154_1" startPos="5" endPos="25" lines="148b"/>
+    <busStop id="省检察院2" lane="-4055_1" startPos="120" endPos="140" lines="139b 142a 148a 158b 501in 705a"/>
+    <busStop id="省检察院1" lane="--4055_1" startPos="110" endPos="130" lines="139a 142b 158a 501out 705b"/>
+    <busStop id="芙蓉苑总站2" lane="-3110#0_1" startPos="210" endPos="230" lines="302a"/>
+    <busStop id="芙蓉苑总站1" lane="-4796_1" startPos="55" endPos="75" lines="302b"/>
+    <busStop id="芙蓉苑1" lane="--3168_1" startPos="155" endPos="175" lines="139b 158b 501in 602a 701b 705a"/>
+    <busStop id="芙蓉苑2" lane="-5252_1" startPos="5" endPos="25" lines="139a 158a 501out 602b 701a 705b"/>
+    <busStop id="火炬路1" lane="--5252_1" startPos="25" endPos="45" lines="701b"/>
+    <busStop id="火炬路2" lane="-5253_1" startPos="20" endPos="40" lines="701a 148a"/>
+    <busStop id="火炬村2" lane="-5256_1" startPos="60" endPos="80" lines="142a 148a"/>
+    <busStop id="火炬村1" lane="--5256_1" startPos="60" endPos="80" lines="142b 148b"/>
+    <busStop id="火炬村3" lane="-3152_1" startPos="105" endPos="125" lines="112b 158b x205e 701b 704b 915a"/>
+    <busStop id="火炬村4" lane="-3963#1_1" startPos="90" endPos="110" lines="112a 158a x205w 701a 704a 915b"/>
+    <busStop id="五里牌2" lane="-3358_1" startPos="140" endPos="160" lines="101b 142a 148a 302a 501out 602b 701a 805a"/>
+    <busStop id="湖心巷" lane="-4643_1" startPos="1" endPos="21" lines="156a"/>
+    <vType id="BUS" accel="2.6" decel="4.5" sigma="0" length="12" minGap="3" maxSpeed="70" color="1,1,0" guiShape="bus/city"/>
+    
+	<!--line info-->
+	<flow id="66a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3458#0 -3458#1 -3172 -4796 -4797 -3558#0 -3558#1 -3558#2 -3558#3 -3296 -4382 -4383 -4384 --4332 --4331 --4330 --4329 -3718 --3760 --3150 -4011 -4012"/>
+		<stop busStop="省教育厅1" duration="20"/>
+		<stop busStop="南湖市场东1" duration="20"/>
+		<stop busStop="凌霄路2" duration="20"/>
+		<stop busStop="商贸城2" duration="20"/>
+    </flow>
+	<flow id="66b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3316 --3680 --3679 --4025 -3760 --3718 -4329 -4330 -4331 -4397 -4398 -4399 -4400 -3416#0 -3416#1 -3110#0 -3110#1 -3110#2"/>
+		<stop busStop="商贸城1" duration="20"/>
+		<stop busStop="凌霄路1" duration="20"/>
+		<stop busStop="南湖市场东2" duration="20"/>
+		<stop busStop="省教育厅2" duration="20"/>
+    </flow>
+	<flow id="103a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 --3679 --3678 --3677 --3685 --3482 -3618#0 -3618#1 -3618#2 -3618#3 -3618#4 -3030"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+		<stop busStop="马王堆2" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+    </flow>	
+	<flow id="103b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3620 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="110a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 --3679 --3678 --3677 --3685 --3482 -3618#0 -3618#1 -3618#2 -3618#3 -3618#4 -3030"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+		<stop busStop="马王堆2" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+    </flow>	
+	<flow id="110b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 --4630 --4629 --4628 --3502 -3618#4 -3618#5 -3618#6 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="五里牌3" duration="20"/>
+		<stop busStop="南湖市场1" duration="20"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>	
+	<flow id="112a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 --4630 --4629 --4628 --3502 -3618#4 -3618#5 -3618#6 -3618#7 -3618#0 -3498 -4395 -4396 --4331 --4330 --4329 --4328 --4327 --4326 -3960 -3052 -4300"/>
+		<stop busStop="五里牌3" duration="20"/>
+		<stop busStop="南湖市场1" duration="20"/>
+		<stop busStop="凌霄路2" duration="20"/>
+		<stop busStop="陶瓷城" duration="20"/>
+		<stop busStop="马王堆医院2" duration="20"/>
+		<stop busStop="马王堆医院南1" duration="20"/>
+    </flow>	
+	<flow id="112b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-4300 -3330 -4024 -3760 -3761 -3142 -4330 -4331 -4397 -4398 --3600 --4955 --4954 --4953 --4952 --4951 --3522 --4647 --4646 --4645 --4475 --4474 --4539 --4538 --4537 --4536 --3358 -4582 -3238"/>
+		<stop busStop="马王堆医院南1" duration="20"/>
+		<stop busStop="商贸城1" duration="20"/>
+		<stop busStop="纬二路1" duration="20"/>
+		<stop busStop="凌霄路1" duration="20"/>
+		<stop busStop="留园路" duration="20"/>
+		<stop busStop="南湖市场3" duration="20"/>
+		<stop busStop="湘湖路" duration="20"/>	
+		<stop busStop="蓉园小区1" duration="20"/>	
+		<stop busStop="竹园路口1" duration="20"/>	
+		<stop busStop="五里牌1" duration="20"/>
+		<stop busStop="蓉园路口2" duration="20"/>			
+    </flow>
+	<flow id="114a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 --4630 --4629 --4628 --3502 -3618#4 -3618#5 -3618#6 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="五里牌3" duration="20"/>
+		<stop busStop="南湖市场1" duration="20"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="114b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 --3679 --3678 --3677 --3685 -3210"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+		<stop busStop="马王堆2" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+    </flow>
+	<flow id="p114a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 --4630 --4629 --4628 --3502 -3618#4 -3618#5 -3618#6 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="五里牌3" duration="20"/>
+		<stop busStop="南湖市场1" duration="20"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="p114b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 --3679 --3678 --3677 --3685 -3210"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+		<stop busStop="马王堆2" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+    </flow>
+	<flow id="126b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 --4630 --4629 --4628 --3502 -3618#4 -3618#5 -3618#6 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="五里牌3" duration="20"/>
+		<stop busStop="南湖市场1" duration="20"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="126a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 --3679 --3678 --3677 --3685 -3210"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="马王堆2" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+    </flow>
+	<flow id="127b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 --4630 --4629 --4628 --3502 -3618#4 -3618#5 -3618#6 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="五里牌3" duration="20"/>
+		<stop busStop="南湖市场1" duration="20"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="127a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 --3679 --3678 --3677 --3685 --3482 -3618#0 -3618#1 -3618#2 -3618#3 -3502 -4628 -4629 -4630 -4582 -3238"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+		<stop busStop="马王堆2" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+		<stop busStop="南湖市场2" duration="20"/>
+		<stop busStop="蓉园路口2" duration="20"/>	
+    </flow>
+	<flow id="142a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--4575 --4574 --4573 --3234 --4582 -3358 -4536 -4537 -3226 -4657 -3610#0 -4952 -4953 -4954 -4955 -4382 -4383 -4384 -4385 -3396 -3618#2 -3618#3 -3618#4 -3618#5 -3618#6 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3957 -3958 -3959 -3960 -3052 -4300 -4301 -4302 -4052 -4053 -5856 -4054 -4055 -5343 -5253 -5254 -5255 -5256 -5257 -3354#0 -3354#1 "/>
+		<stop busStop="省军区1" duration="20"/>
+		<stop busStop="袁家岭2" duration="20"/>
+		<stop busStop="省公安厅2" duration="20"/>
+		<stop busStop="蓉园路口1" duration="20"/>
+		<stop busStop="五里牌2" duration="20"/>
+		<stop busStop="南湖市场4" duration="20"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="马王堆汽配市场2" duration="20"/>
+		<stop busStop="马王堆医院2" duration="20"/>
+		<stop busStop="田家炳中学3" duration="20"/>
+		<stop busStop="龙柏路口2" duration="20"/>
+		<stop busStop="省检察院2" duration="20"/>
+		<stop busStop="火炬村2" duration="20"/>			
+    </flow>
+	<flow id="142b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3354#1 --3354#0 --5257 --5256 --5255 --5254 --5253 --5343 --4055 --4054 --5856 --4053 --4052 --4302 --4301 --4300 -4009 -4010 -4011 --3679 --3678 --3677 --3685 --3482 -3618#0 -3498 -4395 -4396 -4397 -4398 --3600 --4955 --4954 --4953 --4952 --4951 --3522 --4647 --4646 --4645 --4475 --4474 --4539 --4538 --4537 --4536 --3358 -4582 -3234 -4573 -4574 -4575"/>
+		<stop busStop="火炬村1" duration="20"/>	
+		<stop busStop="省检察院1" duration="20"/>
+		<stop busStop="龙柏路口1" duration="20"/>
+		<stop busStop="田家炳中学4" duration="20"/>
+		<stop busStop="马王堆医院1" duration="20"/>
+		<stop busStop="马王堆汽配市场1" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+		<stop busStop="南湖市场3" duration="20"/>
+		<stop busStop="蓉园路口2" duration="20"/>
+		<stop busStop="省公安厅1" duration="20"/>
+		<stop busStop="袁家岭1" duration="20"/>
+		<stop busStop="省军区2" duration="20"/>	
+    </flow>
+	<flow id="148a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 -3358 -4536 -4537 -4538 -4539 -4474 -4475 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -4483 -4484 -4485 -4055 -5343 -5253 -5254 -5255 -5256 -5257 -3354#0 -3354#1"/>
+		<stop busStop="五里牌2" duration="20"/>
+		<stop busStop="竹园路口2" duration="20"/>
+		<stop busStop="蓉园小区3" duration="20"/>
+		<stop busStop="车站南路口2" duration="20"/>
+		<stop busStop="南湖市场北3" duration="20"/>
+		<stop busStop="长沙晚报2" duration="20"/>
+		<stop busStop="省检察院2" duration="20"/>
+		<stop busStop="火炬路2" duration="20"/>
+		<stop busStop="火炬村2" duration="20"/>			
+    </flow>
+	<flow id="148b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3354#1 --3354#0 --5257 --5256 --5255 --5254 --4266 --3154 --4487 --4486 --4485 --4484 --4483 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 --4539 --4538 --4537 --4536 --3358 --3308"/>
+		<stop busStop="火炬村1" duration="20"/>
+		<stop busStop="王家湖路" duration="20"/>		
+		<stop busStop="紫薇路口1" duration="20"/>
+		<stop busStop="长沙晚报3" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>
+		<stop busStop="蓉园小区1" duration="20"/>
+		<stop busStop="竹园路口1" duration="20"/>
+		<stop busStop="五里牌1" duration="20"/>
+    </flow>
+	<flow id="156a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3336 -3090 -4641#0 -4641#1 -4642 -4643 -4644 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -3558#1 -3558#2 -3558#3 -3296 -4382 -4383 -4384 --4332 --4331 --4330 --3142 --3761 --3760 --3150 -4011 -4012"/>
+		<stop busStop="烈士公园东门1" duration="20"/>
+		<stop busStop="湖心巷" duration="20"/>
+		<stop busStop="南湖市场北3" duration="20"/>		
+		<stop busStop="长沙晚报2" duration="20"/>
+		<stop busStop="省教育厅1" duration="20"/>
+		<stop busStop="南湖市场东1" duration="20"/>
+		<stop busStop="凌霄路2" duration="20"/>
+		<stop busStop="纬二路2" duration="20"/>
+		<stop busStop="商贸城2" duration="20"/>
+		<stop busStop="马王堆汽配市场1" duration="20"/>
+    </flow>
+	<flow id="156b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3316 -3957 gneE0 -3150 -3760 -3761 -3142 -4330 -4331 -4397 -4398 -4399 -4400 -3416#0 --4483 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 -4540 -4541 -4542 -4543 -4544 -4545 -3336"/>
+		<stop busStop="马王堆汽配市场2" duration="20"/>
+		<stop busStop="商贸城1" duration="20"/>		
+		<stop busStop="纬二路1" duration="20"/>
+		<stop busStop="凌霄路1" duration="20"/>
+		<stop busStop="省教育厅2" duration="20"/>
+		<stop busStop="长沙晚报3" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>
+		<stop busStop="新华联(王府花园)1" duration="20"/>
+		<stop busStop="烈士公园东门3" duration="20"/>
+    </flow>
+	<flow id="158a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 --4630 --4629 --4628 -3490#0 -3490#1 -4396 -4397 -4398 -4399 -4400 -3416#0 -3416#1 -3110#0 -3168 -5252 --5343 --4055 -4486 -4487 -4488 -4489 -3652 -3963#0 -3963#1 -3354#0 -3354#1 "/>
+		<stop busStop="五里牌3" duration="20"/>
+		<stop busStop="南湖市场1" duration="20"/>		
+		<stop busStop="南湖市场东2" duration="20"/>
+		<stop busStop="省教育厅2" duration="20"/>
+		<stop busStop="芙蓉苑2" duration="20"/>
+		<stop busStop="省检察院1" duration="20"/>
+		<stop busStop="紫薇路口2" duration="20"/>
+		<stop busStop="芙蓉公安分局2" duration="20"/>
+		<stop busStop="火炬村4" duration="20"/>
+    </flow>
+	<flow id="158b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3354#1 --3354#0 -3152 -4007 --4489 --4488 --4487 --4486 -4055 -5343 --5252 --3168 --4823 -4796 -4797 -3558#0 -3558#1 -3558#2 -3558#3 -3296 -4382 -4383 -4384 -4385 -3396 -3618#2 -3618#3 -3618#4 -3030"/>
+		<stop busStop="火炬村3" duration="20"/>
+		<stop busStop="芙蓉公安分局1" duration="20"/>		
+		<stop busStop="省检察院2" duration="20"/>
+		<stop busStop="芙蓉苑1" duration="20"/>
+		<stop busStop="省教育厅1" duration="20"/>
+		<stop busStop="南湖市场东1" duration="20"/>
+    </flow>	
+	<flow id="501out" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--4575 --4574 --4573 --3234 --4582 -3358 -4536 -4537 -4538 -4539 -4474 -4475 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -4483 -3416#1 -3110#0 -3168 -5252 --5343 --4055 --4054 --5856 --4053 --4052 --4302 --4301 --4300 -4009 -4010 -4011 -3680 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+ 		<stop busStop="省军区1" duration="20"/>
+		<stop busStop="袁家岭2" duration="20"/>
+		<stop busStop="省公安厅2" duration="20"/>
+		<stop busStop="蓉园路口1" duration="20"/>
+		<stop busStop="五里牌2" duration="20"/>
+		<stop busStop="竹园路口2" duration="20"/>
+		<stop busStop="蓉园小区2" duration="20"/>
+		<stop busStop="车站南路口2" duration="20"/>
+		<stop busStop="南湖市场北2" duration="20"/>
+		<stop busStop="长沙晚报2" duration="20"/>
+		<stop busStop="芙蓉苑2" duration="20"/>
+		<stop busStop="省检察院1" duration="20"/>
+		<stop busStop="龙柏路口1" duration="20"/>
+		<stop busStop="田家炳中学4" duration="20"/>
+		<stop busStop="马王堆医院南2" duration="20"/>
+		<stop busStop="马王堆汽配市场1" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="501in" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+		<route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 -3957 -3958 -3959 -3960 -3052 -4300 -4301 -4302 -4052 -4053 -5856 -4054 -4055 -5343 --5252 --3168 --4823 -4796 -4797 -3558#0 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 --4539 --4538 --4537 --4536 --3358 -4582 -3234 -4573 -4574 -4575"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+		<stop busStop="马王堆汽配市场2" duration="20"/>
+		<stop busStop="马王堆医院南1" duration="20"/>
+		<stop busStop="田家炳中学3" duration="20"/>		
+		<stop busStop="龙柏路口2" duration="20"/>
+		<stop busStop="省检察院2" duration="20"/>
+		<stop busStop="芙蓉苑1" duration="20"/>
+		<stop busStop="长沙晚报3" duration="20"/>
+        <stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>
+		<stop busStop="蓉园小区1" duration="20"/>
+		<stop busStop="竹园路口1" duration="20"/>
+		<stop busStop="五里牌1" duration="20"/>
+		<stop busStop="蓉园路口2" duration="20"/>
+		<stop busStop="省公安厅1" duration="20"/>
+		<stop busStop="袁家岭1" duration="20"/>
+		<stop busStop="省军区2" duration="20"/>
+    </flow>
+	<flow id="502a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 --3679 --3678 --3677 --3685 --3482 -3618#0 -3618#1 -3618#2 -3618#3 -3618#4 -3030"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+		<stop busStop="马王堆2" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+    </flow>	
+	<flow id="502b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3598 -3618#6 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="701a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3602 -4577 --4574 --4573 --3234 --4582 -3358 -4536 -4537 -4538 -4539 -4474 -4475 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -4483 -3416#1 -3110#0 -3168 -5252 -5253 -5254 -5255 -5256 -5257 -3152 -4261 -3963#1 -3354#0 -3354#1"/>
+		<stop busStop="袁家岭2" duration="20"/>
+		<stop busStop="省公安厅2" duration="20"/>
+		<stop busStop="蓉园路口1" duration="20"/>
+		<stop busStop="五里牌2" duration="20"/>
+		<stop busStop="竹园路口2" duration="20"/>
+		<stop busStop="蓉园小区3" duration="20"/>
+		<stop busStop="车站南路口2" duration="20"/>
+		<stop busStop="南湖市场北3" duration="20"/>
+		<stop busStop="长沙晚报2" duration="20"/>
+		<stop busStop="芙蓉苑2" duration="20"/>
+		<stop busStop="火炬路2" duration="20"/>
+		<stop busStop="火炬村4" duration="20"/>
+    </flow>
+	<flow id="701b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+		<route edges="--3354#1 --3354#0 -3152 -4007 --4489 --4488 -3154 -4266 --5253 --5252 --3168 --4823 -4796 -4797 -3558#0 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 --4539 --4538 --4537 --4536 --3358 -4582 -3234 -4573 -4574 --4577 --3602"/>
+		<stop busStop="火炬村3" duration="20"/>
+		<stop busStop="火炬路1" duration="20"/>
+		<stop busStop="芙蓉苑1" duration="20"/>
+		<stop busStop="长沙晚报3" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>		
+		<stop busStop="蓉园小区1" duration="20"/>
+		<stop busStop="竹园路口1" duration="20"/>
+		<stop busStop="五里牌1" duration="20"/>
+		<stop busStop="蓉园路口2" duration="20"/>
+		<stop busStop="省公安厅1" duration="20"/>
+		<stop busStop="袁家岭1" duration="20"/>
+    </flow>	
+	<flow id="703a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 -4012"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+    </flow>	
+	<flow id="703b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3316 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="704a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--4550 --4549 --4548 --4547 --4546 --4545 --4544 --4543 --4542 --4541 --4540 -4474 -4475 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -4483 -4484 -4485 -4486 -4487 -4488 -4489 -3652 -3963#0 -3963#1 -3354#0 -3354#1"/>
+		<stop busStop="兑泽街3" duration="20"/>
+		<stop busStop="新华联(王府花园)2" duration="20"/>
+		<stop busStop="车站南路口2" duration="20"/>
+		<stop busStop="南湖市场北3" duration="20"/>
+		<stop busStop="长沙晚报2" duration="20"/>
+		<stop busStop="紫薇路口2" duration="20"/>
+		<stop busStop="芙蓉公安分局2" duration="20"/>
+		<stop busStop="火炬村4" duration="20"/>			
+    </flow>
+	<flow id="704b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3354#1 --3354#0 -3152 -4007 --4489 --4488 --4487 --4486 --4485 --4484 --4483 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 -4540 -4541 -4542 -4543 -4544 -4545 -4546 -4547 -4548 -4549 -4550"/>
+		<stop busStop="火炬村3" duration="20"/>
+		<stop busStop="芙蓉公安分局1" duration="20"/>		
+		<stop busStop="紫薇路口1" duration="20"/>
+		<stop busStop="长沙晚报3" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>
+		<stop busStop="兑泽街4" duration="20"/>
+		<stop busStop="兑泽街1" duration="20"/>
+    </flow>
+	<flow id="705a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3735 --3719 -3761 -3142 -4051 -4052 -4053 -5856 -4054 -4055 -5343 --5252 --3168 --4823 -4796 -4797 -3558#0 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 -4540 -4541 -4542 -4543 -4544 -4545 -3336"/>
+		<stop busStop="马王堆大市场2" duration="20"/>
+		<stop busStop="纬二路1" duration="20"/>		
+		<stop busStop="田家炳中学1" duration="20"/>
+		<stop busStop="龙柏路口2" duration="20"/>
+		<stop busStop="省检察院2" duration="20"/>
+		<stop busStop="芙蓉苑1" duration="20"/>
+		<stop busStop="长沙晚报1" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>
+		<stop busStop="新华联(王府花园)1" duration="20"/>
+		<stop busStop="烈士公园东门3" duration="20"/>
+    </flow>
+	<flow id="801b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3598 -3618#6 -3618#7 -3618#0 -3498 -4395 -4396 -4397 -4398 -4399 -4400 -3416#0 -3416#1 -3024 --3334#1 --3334#0"/>
+		<stop busStop="南湖市场东2" duration="20"/>
+		<stop busStop="省教育厅2" duration="20"/>
+	</flow>
+	<flow id="801a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3334#0 -3334#1 -3492 -3558#0 -3558#1 -3558#2 -3558#3 -3296 -4382 -4383 -4384 -4385 -3396 -3618#2 -3618#3 -3618#4 -3030"/>
+		<stop busStop="省教育厅1" duration="20"/>
+		<stop busStop="南湖市场东1" duration="20"/>	
+    </flow>
+	<flow id="802b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3586 --3130 --3082 --3683 --3682 --3907 --3906 --3905 --3904 --3681 --3680 -4012"/>
+		<stop busStop="东屯渡桥西1" duration="20"/>
+		<stop busStop="长沙输液中心1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+    </flow>	
+	<flow id="802a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3316 -3681 -3904 -3905 -3906 -3907 -3682 -3683 -3082 -3130 -3586"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="长沙输液中心2" duration="20"/>
+		<stop busStop="东屯渡桥西2" duration="20"/>
+    </flow>
+	<flow id="805a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3308 -3358 -4536 -4537 -4538 -4539 -4474 -4475 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -4483 -3416#1 -3024 --3334#1 --3334#0"/>
+		<stop busStop="五里牌2" duration="20"/>
+		<stop busStop="竹园路口2" duration="20"/>
+		<stop busStop="蓉园小区3" duration="20"/>
+		<stop busStop="车站南路口2" duration="20"/>
+		<stop busStop="南湖市场北3" duration="20"/>
+		<stop busStop="长沙晚报2" duration="20"/>		
+    </flow>
+	<flow id="805b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3334#0 -3334#1 -3492 -3558#0 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 --4539 --4538 --4537 --4536 --3358 --3308 "/>
+		<stop busStop="长沙晚报3" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>		
+		<stop busStop="车站南路口1" duration="20"/>
+		<stop busStop="蓉园小区1" duration="20"/>
+		<stop busStop="竹园路口1" duration="20"/>
+		<stop busStop="五里牌1" duration="20"/>
+    </flow>
+	<flow id="907b1" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3360 -4472 -4473 -4474 -4475 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -4483 -4484 -4485 -4486 -4487 -4488 -4489 -3652 -3653 -4119 -3470 -3876 -3877 -3878 --4322 -4322"/>
+		<stop busStop="车站南路口2" duration="20"/>
+		<stop busStop="南湖市场北2" duration="20"/>
+		<stop busStop="长沙晚报2" duration="20"/>
+		<stop busStop="紫薇路口2" duration="20"/>
+		<stop busStop="芙蓉公安分局2" duration="20"/>
+		<stop busStop="省审计厅2" duration="20"/>
+		<stop busStop="新桥1" duration="20"/>
+		<stop busStop="蒋家湾" duration="20"/>		
+    </flow>
+	<flow id="907b2" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-4322 --3878 --3877 --3876 --3470 --4119 --3653 --3652 --4489 --4488 --4487 --4486 --4485 --4484 --4483 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 --4473 --4472 --3360"/>
+		<stop busStop="蒋家湾" duration="20"/>
+		<stop busStop="新桥2" duration="20"/>		
+		<stop busStop="省审计厅1" duration="20"/>
+		<stop busStop="芙蓉公安分局1" duration="20"/>
+		<stop busStop="紫薇路口1" duration="20"/>
+		<stop busStop="长沙晚报1" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>
+    </flow>
+	<flow id="907b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-4322 --3878 --3877 --3876 --3470 --4119 --3653 --3652 --4489 --4488 --4487 --4486 --4485 --4484 --4483 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 --4473 --4472 --3360"/>
+		<stop busStop="蒋家湾" duration="20"/>
+		<stop busStop="新桥村" duration="20"/>
+		<stop busStop="新桥2" duration="20"/>		
+		<stop busStop="省审计厅1" duration="20"/>
+		<stop busStop="芙蓉公安分局1" duration="20"/>
+		<stop busStop="紫薇路口1" duration="20"/>
+		<stop busStop="长沙晚报1" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>
+    </flow>
+	<flow id="907a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3360 -4472 -4473 -4474 -4475 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -4483 -4484 -4485 -4486 -4487 -4488 -4489 -3652 -3653 -4119 -3470 -3876 -3877 -4092 -4093 -3200 -4322"/>
+		<stop busStop="车站南路口2" duration="20"/>
+		<stop busStop="南湖市场北2" duration="20"/>
+		<stop busStop="长沙晚报2" duration="20"/>
+		<stop busStop="紫薇路口2" duration="20"/>
+		<stop busStop="芙蓉公安分局2" duration="20"/>
+		<stop busStop="省审计厅2" duration="20"/>
+		<stop busStop="新桥1" duration="20"/>
+		<stop busStop="蒋家湾" duration="20"/>
+    </flow>	
+	<flow id="908e1" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--4575 --4574 --4573 --3234 --4582 --4630 --4629 --4628 --3502 -3618#4 -3618#5 -3618#6 -3618#7 -3482 -3685 -3677 -3678 -3679 -3680 -3681 -3904 --3881 --3880 --3879 --3878 --3877 --3876"/>
+		<stop busStop="袁家岭2" duration="20"/>
+		<stop busStop="省公安厅2" duration="20"/>
+		<stop busStop="蓉园路口1" duration="20"/>
+		<stop busStop="五里牌3" duration="20"/>
+		<stop busStop="南湖市场1" duration="20"/>
+		<stop busStop="火星镇2" duration="20"/>
+		<stop busStop="陶家山1" duration="20"/>
+		<stop busStop="省高速公路管理局2" duration="20"/>
+		<stop busStop="陶家山北2" duration="20"/>
+		<stop busStop="新桥村" duration="20"/>
+		<stop busStop="新桥2" duration="20"/>
+    </flow>
+	<flow id="908e2" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3876 -3877 -3878 -3879 -3880 -3881 --3904 --3681 --3680 --3679 --3678 --3677 --3685 --3482 -3618#0 -3618#1 -3618#2 -3618#3 -3502 -4628 -4629 -4630 -4582 -3234 -4573 -4574 -4575"/>
+		<stop busStop="新桥1" duration="20"/>		
+		<stop busStop="陶家山北1" duration="20"/>
+		<stop busStop="省高速公路管理局1" duration="20"/>
+		<stop busStop="陶家山2" duration="20"/>
+		<stop busStop="马王堆2" duration="20"/>
+		<stop busStop="火星镇1" duration="20"/>
+		<stop busStop="南湖市场2" duration="20"/>
+		<stop busStop="蓉园路口2" duration="20"/>
+		<stop busStop="省公安厅1" duration="20"/>
+		<stop busStop="袁家岭1" duration="20"/>
+    </flow>
+	<flow id="915b" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="-3316 -3957 -3958 -3959 -3960 -3961 -3962 -3963#0 -3963#1 -3354#0 -3354#1"/>
+		<stop busStop="马王堆汽配市场2" duration="20"/>
+		<stop busStop="马王堆医院2" duration="20"/>
+		<stop busStop="省老干部局2" duration="20"/>
+		<stop busStop="火炬村4" duration="20"/>
+    </flow>
+	<flow id="915a" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3354#1 --3354#0 -3152 -4007 -4008 -4009 -4010 -4011 -4012"/>
+		<stop busStop="火炬村3" duration="20"/>
+		<stop busStop="省老干部局1" duration="20"/>
+		<stop busStop="马王堆医院1" duration="20"/>
+		<stop busStop="马王堆汽配市场1" duration="20"/>		
+    </flow>
+	<flow id="x205w" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--4550 --4549 --4548 --4547 --4546 --4545 --4544 --4543 --4542 --4541 --4540 -4474 -4475 -4476 -4477 -4478 -4479 -4480 -4481 -4482 -4483 -4484 -4485 -4486 -4487 -4488 -4489 -3652 -3963#0 -3963#1 -3354#0 -3354#1"/>
+		<stop busStop="兑泽街3" duration="20"/>
+		<stop busStop="新华联(王府花园)2" duration="20"/>
+		<stop busStop="车站南路口2" duration="20"/>
+		<stop busStop="南湖市场北2" duration="20"/>
+		<stop busStop="长沙晚报2" duration="20"/>
+		<stop busStop="紫薇路口2" duration="20"/>
+		<stop busStop="芙蓉公安分局2" duration="20"/>
+		<stop busStop="火炬村4" duration="20"/>			
+    </flow>
+	<flow id="x205e" type="BUS" depart="0" color="1,1,0" begin="23400" end= "75600" period="1800">
+        <route edges="--3354#1 --3354#0 -3152 -4007 --4489 --4488 --4487 --4486 --4485 --4484 --4483 --4482 --4481 --4480 --4479 --4478 --4477 --4476 --4475 --4474 -4540 -4541 -4542 -4543 -4544 -4545 -4546 -4547 -4548 -4549 -4550"/>
+		<stop busStop="火炬村3" duration="20"/>
+		<stop busStop="芙蓉公安分局1" duration="20"/>		
+		<stop busStop="紫薇路口1" duration="20"/>
+		<stop busStop="长沙晚报1" duration="20"/>
+		<stop busStop="南湖市场北1" duration="20"/>
+		<stop busStop="车站南路口1" duration="20"/>
+		<stop busStop="新华联(王府花园)1" duration="20"/>
+		<stop busStop="兑泽街1" duration="20"/>
+    </flow>
+</additional>

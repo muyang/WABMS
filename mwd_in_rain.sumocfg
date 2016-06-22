@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="mwd2.net.xml"/>
+		<!--additional-files value="bus2.add.xml;schools.add.xml;building.add.xml"/-->
+		<additional-files value="bus2.add.xml"/>
+		<route-files value="mwd.rou.xml;person.rou.xml"/>
+    </input>
+
+    <time>
+        <begin value="57600"/>
+        <end value="86400"/>
+		<step-length value="300"/>
+    </time>
+	
+	<output> 
+		<!--netstate-dump value="rawdump.xml" /-->
+		<!--summary value="summary2_in_rain.xml" /-->
+		<!--fcd-output value="fcd-output.xml" />
+		<fcd-output.geo value="true"/-->
+	</output>
+	
+	<processing>
+		<ignore-route-errors value="true"/>
+	</processing>
+    <report>
+        <xml-validation value="never"/>
+        <no-duration-log value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
