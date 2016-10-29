@@ -1,13 +1,20 @@
 # WABMS
 a web traffic simulation platform based TraCI and socket.io
 
+
 Requirements:
 
 Python 2.7
+
 SUMO 0.24.0 or later
+
 flask
+
 flask socketIO
+
 web map APIs, like google map, OSM, Leaflet etc.
+
+
 
 
 SUMO
