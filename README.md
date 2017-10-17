@@ -8,7 +8,7 @@ Python 2.7
 
 SUMO 0.24.0 or later
 
-flask
+flask 0.10.1
 
 flask socketIO
 pip install eventlet  gevent gevent-websocket 
