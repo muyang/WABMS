@@ -11,6 +11,8 @@ SUMO 0.24.0 or later
 flask
 
 flask socketIO
+pip install eventlet  gevent gevent-websocket 
+(install eventlet or gevent and gevent-websocket to improve performance) 
 
 web map APIs, like google map, OSM, Leaflet etc.
 
