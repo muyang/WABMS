@@ -30,7 +30,7 @@ step 1: Install python 2.7, flask, socketIO and SUMO
 python downloads:
 https://www.python.org/downloads/
 
-pip install flask sockIO
+pip install flask socketIO
 
 SUMO is a free and open traffic simulation suite which is available since 2001. SUMO allows modelling of intermodal traffic systems including road vehicles, public transport and pedestrians. Included with SUMO is a wealth of supporting tools which handle tasks such as route finding, visualization, network import and emission calculation. SUMO can be enhanced with custom models and provides various APIs to remotely control the simulation.
 
