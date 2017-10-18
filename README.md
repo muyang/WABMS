@@ -1,9 +1,12 @@
 # WABMS
-a web traffic simulation platform based TraCI and socket.io
+A Web Agent-Based Modeling and Simulation tool for Traffic based SUMO and socket.io
+
+Developed based on TraCI and socket.io
 
 
 Requirements:
 
+Ubuntu 14.04 + (not tested on Windows yet.)
 Python 2.7
 
 SUMO 0.24.0 or later
