@@ -2,7 +2,8 @@
 A Web Agent-Based Modeling and Simulation tool for Traffic based SUMO and socket.io
 
 Developed based on TraCI and socket.io
- ![image](https://github.com/muyang/WABMS/raw/master/framework.png)
+
+ ![image](https://github.com/muyang/WABMS/blob/master/Framework.png)
 
 
 Requirements:
