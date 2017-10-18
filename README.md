@@ -6,7 +6,6 @@ Developed based on TraCI and socket.io
 <img src="https://github.com/muyang/WABMS/blob/master/Framework.png" width="50%" height="50%">
 
 
- ![image](https://github.com/muyang/WABMS/blob/master/Framework.png)
 
 
 Requirements:
